@@ -21,7 +21,7 @@ Resources:
             chmod 777 /var/www/html
             cd /var/www/html
             yum install git -y
-            git clone https://github.com/sambcelik/kittens2.git .
+            git clone https://github.com/AWSDevOpsADG/Kittens2 .
             systemctl restart httpd
             systemctl enable httpd /var/www/html/index.html
       SecurityGroups:
